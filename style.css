@@ -1,0 +1,721 @@
+
+
+body{
+    /*Removing every margin and padding and making the font family uniform*/
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+
+
+
+
+/* ----The Header containing the icons ----*/
+
+header{
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    height: 35px;
+    width: 100%;
+    background-color: #444444;
+    color: white;
+    margin-top: 0%;
+}
+
+
+header h2, header h5{
+    padding: 0%;
+    margin:0%;
+}
+
+
+.cell h2{
+    /*Editing the "colorib" in the header*/
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    width: 100px;
+    padding: 5px 10px 3px 20px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+}
+
+
+
+.cell h5{
+    /*Editing the "consultingbiz" in the header*/
+    position: fixed;
+    top: 0px;
+    left: 120px ;
+    z-index: 3;
+    width: 130px;
+    height: 20px;
+    padding: 12px 10px 2px 9px ;
+    text-align: center;
+    font-size: 0.7em;
+    text-align: center;
+    background-color: black;
+}
+
+#headericons{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+/*--------------The icons---------*/
+#icon1{
+    position: fixed;
+    right: 180px;
+    top: 7px;
+}
+
+#icon2{
+    position: fixed;
+    right: 135px;
+    top: 0px;
+}
+
+
+#icon3{
+    position: fixed;
+    right: 90px;
+    top: 7px;
+}
+
+#icon4{
+    position: fixed;
+    right: 45px;
+    top: 6px;
+}
+
+
+#icon5{
+    position: fixed;
+    right: 5px;
+    top: 6px;
+}
+
+/* ----Finished with the Header ----*/
+
+
+
+
+
+
+
+#whitebackground{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    height: 90px;
+    width: 100%;
+}
+#first{
+    margin-left: 52%;
+}
+
+span.period{
+    color: red;
+}
+
+#top h2{
+    position: fixed;
+    top: 55px;
+    margin: 0px;
+    padding: 0px 10% 0px 10%;
+}
+
+
+
+
+
+
+
+/*Positioning the fixed menu bar*/
+#menubox{
+    position: fixed;
+    top: 80px;
+    left: 10%;
+    height: 40px;
+    width: 80%; 
+    padding-bottom: 5px;
+    margin:0% 10% 0% 0%;
+    background-color: #444
+}
+
+#menu{
+    position: fixed;
+    left: 80%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    padding-top: 3px;
+    font-size: 0.8em;
+    margin-top: 9px;
+}
+
+a#menulink{
+    text-decoration: none;
+    color: white;
+}
+
+/*--------------------------*/
+
+
+
+
+
+
+
+
+/*----First Slide---*/
+
+div.firstslide{
+    background-color: #a4a0a0;
+    height: 400px;
+    padding: 10%;
+    margin: 0%;
+    margin-top: 65px;
+}
+
+p.redtop{
+    padding-top: 30px;
+    color: red;
+
+}
+
+
+
+h1{
+    font-weight: 800;
+    font-size: 2.8em;
+    letter-spacing: -1.4px;
+    padding-top: 0px;
+}
+
+div.firstslide p#latin{
+    font-weight: 600;
+    padding-top: 10px;
+    line-height: 1.9em;
+}
+
+
+
+#services a{
+    text-decoration: none;
+    color:rgb(215, 211, 211) ;
+}
+
+
+#services{
+    margin-top: 30px;
+}
+
+
+#services a{
+    padding: 13px 18px;
+    font-size: 0.7em;
+    text-align: center;
+    background-color: red;
+    color: rgb(215, 211, 211);
+}
+
+#services a:hover{
+    background-color: rgb(102, 0, 255);
+}
+
+#services a:active{
+    background-color: black;
+}
+
+/*----------------*/
+
+
+
+
+
+
+/*---Second slide---*/
+
+
+div.secondslide{
+    background-color: #e8e7e7;
+    height: 600px;
+    width: 80%;
+    padding: 10%;
+    margin: 0%;
+}
+
+.flexcontainer{
+    display: flex;
+}
+
+.flexbox{
+    display: flexbox;
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    height:350px;
+    width: 300px;
+    padding: 20px;
+}
+
+.secondslide .flexbox p{
+    font-size: 0.7em ;
+    color:  rgb(46, 46, 131);
+    align-items: center;
+    line-height: 2.1em;
+    font-weight: 600;
+}
+
+.secondslide .flexbox h2{
+    color: rgb(29, 29, 108);
+    font-size: 1.2em;
+}
+
+div.secondslide h1#secondheader{
+    color: rgb(6, 6, 57);
+}
+
+/*-------------------*/
+
+
+
+
+
+
+/*------------Third Slide-------*/
+
+div#thirdslide{
+    background-color: #0a3158;
+    color: white;
+    padding: 10%;
+}
+
+.thirdslide{
+    font-size: 0.9em;
+    padding-bottom: 30px;
+}
+
+.two{
+    font-weight: 600;
+}
+
+
+
+div.moreaboutus a{
+    background-color: red;
+    font-size: 0.67em;
+    letter-spacing: 0.01px;
+    padding: 13px 19px;
+    text-decoration: none;
+    color:rgb(215, 211, 211) ;
+}
+
+div.moreaboutus a:hover{
+    background-color: rgb(102, 0, 255);
+}
+
+div.moreaboutus a:active{
+    background-color: black;
+}
+
+/*--------------------------------*/
+
+
+
+
+
+
+
+
+/*------------Forth slide-------------*/
+
+div.fourthslide{
+    padding: 10%;
+    background-color: #e8e7e7;
+}
+
+.fourthslide #red4{
+    color: red;
+}
+#forthheader{
+    color: rgb(6, 6, 57)
+}
+
+.fourthslideflex{
+    display: flex;
+}
+
+.fourthslideimages{
+    background-color: white;
+    width: max-content;
+}
+
+.flexbox41{
+    display: flexbox;
+    margin: 20px 20px 20px 0px;
+}
+
+.flexbox42{   
+    display: flexbox;
+    margin: 20px 20px 20px 0px;
+}
+
+.fourthslidetext{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+
+/*--------------------------------------*/
+
+
+
+
+
+
+
+
+/*------------Fifth slide-------------*/
+
+div#fifthslide{
+    padding: 10% 30% 5% 30%;
+    background-color: #0a3158;
+    text-align: center;
+    color: white;
+    line-height: 1.3em;
+}
+
+h1#apostrophe{
+    color: red;
+    font-size: 4.9em;
+}
+
+#Jessya{
+    color: red;
+    font-size: 1.6em;
+}
+
+#chif{
+    font-size: 0.7em;
+    margin-left: 30px;
+}
+
+/*-------------------------------------*/
+
+
+
+
+/*--------------Sixthslide---------*/
+
+#sixthslide{
+    background-color: #0a3158;
+    height: 0px;
+    padding: 10%;
+}
+
+
+#flex5{
+    margin-top: 6%;
+}
+
+#flex5, #flex6{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.flexbox5 , .flexbox6{
+    display: flexbox;
+    border: 1px rgb(146, 145, 145) solid;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    padding: 20px 30px;
+}
+
+
+.flexnumber{
+    font-size: 4em;
+    padding: 0px;
+    margin: 0%;
+}
+
+.flextext{
+    font-size: 0.9em;
+}
+
+#sixthslide a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+#sixthslide a:hover{
+    background-color: red;
+    color: red;
+}
+
+#sixthslide a:active{
+    background-color: purple;
+    color: purple;
+}
+
+
+
+
+
+
+/*--------Seventh slide----------*/
+
+#seventhslide{
+    margin-top: 450px;
+    background-color: #e8e7e7;
+    padding: 10%;
+}
+
+
+.whiteback{
+    background-color: white;
+    width: max-content;
+}
+
+#flex7{
+    display: flex;
+}
+
+.flexbox7{
+    display: flexbox;
+    margin: 0px 100px 50px 0px;
+}
+
+.whiteback div{
+    padding: 30px;
+    font-size: 1.4em;
+    color: rgb(6, 6, 57);
+    font-weight: 600;
+
+}
+
+.whiteback div p{
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+#seventhslide p{
+    color: red;
+}
+
+/*-------End of seventh slide-------*/
+
+
+
+
+
+
+/*-----------EIght slide-------------*/
+#eightslide{
+    background-color: red;
+    color: white;
+    display: flex;
+    padding: 4% 10% 4% 10%;
+    font-weight: 600;
+    width: 80%;
+}
+
+
+
+#eightslide p{
+    text-align: center;
+    display: flexbox;
+    margin-left: 20%;
+}
+
+#eightslide p a{
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 18px;
+    font-size: 0.7em;
+    color: white;
+}
+
+#eightslide p a:hover{
+    background-color: rgb(159, 159, 31);
+}
+
+#eightslide p a:active{
+    background-color: blue;
+}
+
+/*-----------------------------------*/
+
+
+
+
+
+
+
+
+
+/*--------------Ninth slide--------------*/
+#ninthslide{
+    background-color: #e8e7e7;
+    padding: 10%;
+}
+
+#flex9 {
+    display: flex;
+}
+
+#flex9 div{
+    display: flexbox;
+    width: 400px;
+    margin: 20px 50px 20px 0px;
+    background-color: white;
+}
+
+#ninthslide .red9{
+    color: red;
+}
+
+.flex9 .others p{
+    font-size: 0.8em;
+    padding: 0px 10px;
+    line-height: 2em;
+}
+
+.flex9 .others p.top9{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.flex9 .others a{
+    text-decoration: none;
+}
+
+
+/*-------------------------------------*/
+
+
+
+
+/*-------------Lastslide------------------*/
+#lastslide{
+    background-color: #e8e7e7;
+    padding: 0% 2% 6% 10%;
+    display: flex;
+}
+
+
+#lastslide .flexlast{
+    display: flexbox;
+    margin-right: 20%;
+}
+
+/*----------------------------------------*/
+
+
+
+
+
+
+
+/*----Editing the footer---Making it into a CSS table-----*/
+
+footer{
+    background-color: rgb(0, 0, 13);
+    color: white;
+    padding: 50px;
+    padding-left: 10%;
+    line-height: 1.3em;
+}
+
+
+#tablecontainer2{
+    display: table;
+}
+
+
+#tablerow2{
+    display: table-row;
+}
+
+
+.tablecell2{
+    display: table-cell;
+    width: 35%;
+    padding-right: 100px;
+}
+
+.firstrow{
+    width: 30%;
+}
+
+.firstrow h2{
+    font-size: 1.25em;
+    letter-spacing: -0.4px;
+}
+
+#rednumber{
+    color: red;
+}
+
+.smallcelltext{
+    font-size: 0.8em;
+    line-height: 1.8em;
+    color: rgb(124, 124, 141) ;
+}
+
+.largercelltext{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#mailtext{
+    font-size: 0.8em;
+    color: rgb(124, 124, 141);
+    padding: 5px;
+    border-color: rgb(24, 24, 33);
+    padding-left: 10px;
+    background-color: rgb(24, 24, 33);
+}
+
+#signup{
+    border-radius: 0%;
+    margin-top: 10px;
+    font-size: 0.8em;
+    padding: 5px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    color: rgb(124, 124, 141);
+    background-color: rgb(15, 15, 17);
+    border-color: rgb(15, 15, 17);
+}
+
+hr{
+    background-color:rgb(59, 59, 72) ;
+    padding: 0.1px 10%;
+    border: 0px;
+}
+
+#redfooter{
+    color: rgb(255, 60, 100);
+}
+
+/*-----End of the footer editing-----*/
