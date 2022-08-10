@@ -1,4 +1,11 @@
-
+:root{
+    --bg-black-900: #444444;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+    --skin-color: #8b1678;
+}
 
 body{
     /*Removing every margin and padding and making the font family uniform*/
@@ -19,8 +26,8 @@ header{
     z-index: 2;
     height: 35px;
     width: 100%;
-    background-color: #444444;
-    color: white;
+    background-color: var(--bg-black-900);
+    color: var(--bg-black-50);
     margin-top: 0%;
 }
 
@@ -36,27 +43,10 @@ header h2, header h5{
     position: fixed;
     z-index: 3;
     top: 0px;
-    width: 100px;
+    width: 25%;
     padding: 5px 10px 3px 20px;
     font-weight: 100;
     letter-spacing: -1.5px;
-}
-
-
-
-.cell h5{
-    /*Editing the "consultingbiz" in the header*/
-    position: fixed;
-    top: 0px;
-    left: 120px ;
-    z-index: 3;
-    width: 130px;
-    height: 20px;
-    padding: 12px 10px 2px 9px ;
-    text-align: center;
-    font-size: 0.7em;
-    text-align: center;
-    background-color: black;
 }
 
 #headericons{
@@ -135,26 +125,16 @@ span.period{
 
 
 /*Positioning the fixed menu bar*/
-#menubox{
-    position: fixed;
-    top: 80px;
-    left: 10%;
-    height: 40px;
-    width: 80%; 
-    padding-bottom: 5px;
-    margin:0% 10% 0% 0%;
-    background-color: #444
-}
 
 #menu{
     position: fixed;
-    left: 80%;
+    left: 90%;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: var(--skin-color);
+    color: var(--bg-black-50);
     padding: 7px;
     padding-top: 3px;
-    font-size: 0.8em;
+    font-size: 1em;
     margin-top: 9px;
 }
 
